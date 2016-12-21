@@ -1,0 +1,1 @@
+<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-numposts="20" width="100%" data-colorscheme="light" data-version="v2.8"></div>

@@ -1,0 +1,401 @@
+blockquote:after {
+	right: 20px;
+	left: auto;
+}
+dt {
+	float: right;
+	clear: right;
+	text-align: left;
+}
+/*-[ Header ]-----------------------*/
+header { float: right }
+.main-header { float: right }
+#header { float: right }
+	#header h1, #header h2 { float: right }
+#logo a { float: right }
+#logo img { float: right }
+.site-description {
+	float: right;
+	clear: right;
+}
+#header .header-search { float: left }
+#header #searchform { float: left }
+.header-social, .footer-social { text-align: left }
+#site-header .widget_search { text-align: left }
+#site-header #searchform { float: left }
+#primary-navigation { text-align: right }
+#primary-navigation .navigation { float: right }
+.header-social a, .footer-social a {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.header-social a:last-child, .footer-social a:last-child { margin-left: 0 }
+/*-[ Navigation ]-----------------*/
+#secondary-navigation { float: left }
+	#secondary-navigation a { text-align: right }
+.navigation { float: left }
+.navigation ul li { float: right }
+.navigation ul li:first-child a {
+	padding-left: 21px;
+	padding-right: 0;
+}
+.navigation ul li a:before {
+	right: inherit;
+	left: 4px;
+}
+.navigation ul ul ul { right: 120px }
+.navigation .menu-item-has-children > a {
+	padding-left: 35px;
+	padding-right: 21px;
+}
+.navigation ul ul li.menu-item-has-children > a:after {
+	right: auto;
+	left: 12px;
+}
+.menu-item-has-children > a:after {
+	right: inherit;
+	left: 20px;
+}
+.navigation ul ul a, .navigation ul ul a:link, .navigation ul ul a:visited { padding-right: 0 }
+#load-posts a i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+/*-[ Content ]--------------------*/
+.article { float: right }
+#content_box { float: right }
+article ul { margin: 1.5em 2.5em 1.571em 0 }
+article ol { margin: 1.5em 2.5em 1.571em 0 }
+.post { float: right }
+.readMore { float: right }
+.page-featuredfull .latestPost .readMore a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+.ss-full-width #content_box {
+	padding-left: 0;
+	padding-right: 0;
+}
+.wp-post-image { float: right }
+.featured-thumbnail { float: right }
+.post-image { float: right }
+.single-title {
+	float: right;
+	padding: 0 0 0 0;
+}
+.post-info { float: right }
+.post-info > span {
+	float: right;
+	margin-left: 17px;
+	margin-right: 0;
+}
+.single_post .post-info > span { margin-right: 0 }
+.post-info i, .single_post .post-info i {
+	margin-right: 0;
+	margin-left: 8px;
+}
+.thecategory { margin-right: 5px }
+.text-info .text {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.text-info .readMore { float: left }
+.single-button > div a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+/**********latest-posts***********/
+article header { float: right }
+.article .iconlist { margin-right: 0 }
+.latestPost .post-format-icons {
+	left: auto;
+	right: 28px;
+}
+.latestPost {
+	float: right;
+	margin-right: 0;
+	margin-left: 2.702%;
+}
+.latestPost:nth-of-type(3n+1) { clear: right }
+.related-posts .latestPost { margin-right: 0 }
+#tabber .inside { padding: 0 0 15px 0 }
+#tabber ul.tabs li {
+	float: right;
+	margin-right: 0;
+}
+#tabber ul.tabs li a {
+	float: right;
+	padding: 2px 0 2px 0;
+}
+#tabber ul.tabs li.tab-recent-posts a { border-right: 0 }
+#tabber .inside li {
+	padding: 15px 0 0 0;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#tabber .tab-thumb {
+	float: right;
+	margin: 0px 0px 0px 12px;
+}
+#tabber .inside .tabsSep { float: right }
+.widget_nav_menu .fa > a, .widget_nav_menu .fa > a { padding-right: 5px }
+/*-[ Tables ]--------------------*/
+table { text-align: right }
+table th, table td { text-align: right }
+.widget_nav_menu .sub-menu {
+	margin-left: 0;
+	margin-right: 10px;
+}
+/*-[ Search Form ]------------------*/
+#searchform { float: right }
+#search-image.sbutton, #searchsubmit {
+	left: 0px;
+	float: left;
+	right: auto;
+}
+#searchform .fa-search { left: 0px }
+#s { float: right }
+/* Microphone icon position fix */
+input::-webkit-input-speech-button {
+	margin-left: 14px;
+	margin-right: 4px;
+}
+/*-[ Read More ]-------------------*/
+.read-more { margin: 0 10px 0 0 }
+.pagination a.next { float: left }
+.pagination a.prev { float: right }
+/*-[ Bottom Ad in post ]-----------*/
+.bottomad { float: right }
+.sidebar.c-4-12 { float: left }
+#sidebar .wp-post-image, #site-footer .wp-post-image, .widget .wp-post-image, .widget .wpt_thumb_small, .wpt_avatar, .widget .wp_review_tab_thumb_small {
+	margin-left: 10px;
+	margin-right: 0;
+	float: right;
+}
+.widget { float: right }
+.widget h3 { margin: 0px 0 15px 0 }
+.advanced-recent-posts li, .popular-posts li, .category-posts li, .related-posts-widget li { padding-right: 0 }
+.share-item {
+	float: right;
+	margin-right: 0;
+	margin-left: 8px;
+}
+.share-item:nth-of-type(3n+3) { margin-left: 0 }
+.share-item.shareit.top { float: right }
+.social-profile-icons ul li { float: right }
+.copyrights { float: right }
+/*-[ Back To Top ]---------------------------*/
+.top { float: left }
+.toplink .fa-chevron-up { left: 0 }
+.toplink {
+	margin-left: 0;
+	margin-right: 20px;
+}
+#move-to-top {
+	left: 15px;
+	right: auto;
+}
+/*-[ Related Posts ]---------------------------*/
+.related-posts { float: right }
+.related-posts ul { margin-right: 0 }
+.related-posts h5 { padding-right: 80px }
+.related-posts .relatepostli3, .related-posts .relatepostli1 {
+	margin-left: 0;
+	float: left;
+}
+.related-posts li { float: right }
+.rthumb {
+	float: right;
+	margin-left: 10px;
+}
+.related-posts .last { margin-left: 0 }
+.fn { float: right }
+/*-[ Post Tags ]---------------------------------*/
+.tags {
+	margin: 20px 0 0 0;
+	float: right;
+}
+	.tags a { margin-right: 5px }
+/*-[ Author Box ]--------------------------------*/
+.postauthor img {
+	float: right;
+	margin: 4px 0 0 20px;
+}
+.left { float: right }
+.right { float: left }
+.last { margin-left: 0 }
+/*-[ Tag widget ]------------------------------*/
+.tagcloud a {
+	float: right;
+	margin-left: 3px;
+}
+/*-[ Subscribe Widget ]------------------------*/
+.mts-subscribe input[type="text"] { float: right }
+#mts_subscribe_widget { border: 1px solid #F1F1F1 !important }
+.mts-subscribe input[type="submit"] {
+	float: left;
+	left: 0;
+	right: auto;
+}
+/*-[ Ad Widgets ]------------------------------*/
+.ad-125 li {
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+}
+.ad-125 li:nth-child(2n+2) { float: left!important }
+#wp-calendar td { border-left: 1px solid #F1F4F6 }
+#wp-calendar #prev {
+	text-align: right;
+	padding-right: 12px;
+}
+/*-[Comments]--------------*/
+.nocomments { float: right }
+#comments { float: right }
+#commentsAdd { float: right }
+#comments .avatar {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0;
+}
+.comment time { padding-right: 10px }
+ul.children .commentImageLeft {
+	border-right: 1px solid #c1bbb6;
+	right: -70px;
+}
+input#author, input#email, input#url { margin-left: 10px }
+#commentform input#submit, .contactform #submit { float: left }
+.contactform #submit { float: right }
+ol.commentlist { margin-right: 0 }
+.reply { float: left }
+	.reply a { float: right }
+.commentlist .children {
+	margin-right: 0;
+	float: right;
+}
+.commentlist .children li {
+	padding-left: 0;
+	padding-right: 30px;
+}
+.avatar { float: right }
+#commentform p { float: right }
+#commentform p label { padding-right: 10px }
+.cancel-comment-reply a { float: left }
+.comment-notes .required { padding-right: 0 }
+/*-[ pagination ]------------------*/
+.contact-form.loading:after { right: 0 }
+.ajax-search-results-container { right: 0 }
+.ajax-search-results-container.loading:after {
+	left: 0;
+	right: 0;
+}
+.ajax-search-results .wp-post-image {
+	margin-left: 10px;
+	margin-right: 0;
+}
+.ajax-search-meta .results-count { float: right }
+.ajax-search-meta .results-link { float: left }
+#copyright-note > span { float: right }
+/*-[ Load More ]-------------------*/
+.pace .pace-progress { right: 0 }
+pre:before { left: 14px }
+/*-[ WP Tab Widget ]--------------------------------*/
+.wpt_widget_content .inside li, .widget .wp_review_tab_widget_content .tab-content li { text-align: right!important }
+/*-[ WP Review ]--------------------------------*/
+.latestPost-review-wrapper {
+	left: 0;
+	right: auto;
+}
+.review-star {
+	left: 15px;
+	right: auto;
+}
+.review-result-wrapper i { float: left }
+.review-star {
+	left: 15px;
+	right: auto;
+}
+.review-result-wrapper i { float: left }
+.review-desc { float: right }
+.review-total-wrapper {
+	float: left;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.user-total-wrapper {
+	float: right;
+	text-align: right;
+}
+.user-total-wrapper span { float: right }
+span#mts-user-reviews-counter { float: none }
+.review-total-star.allowed-to-rate { float: left }
+.widget .wp-review-tab-pagination a.next { float: left }
+.widget .wp-review-tab-pagination a.prev { float: right }
+.copyrights .to-top { float: left }
+.widgets-num-3 .f-widget, .widgets-num-4 .f-widget, .widgets-num-5 .f-widget {
+	float: right;
+	margin-right: 0;
+	margin-left: 2.7%;
+}
+.f-widget.last { margin-left: 0 }
+.shareit { right: 40px }
+.commentmetadata { clear: none }
+#comments .post-info .theauthor { float: right }
+#comments .thetime {
+	float: right;
+	margin-left: 0;
+	margin-right: 80px;
+}
+#cancel-comment-reply-link { float: left }
+#s {
+	float: left;
+	padding-right: 0;
+	padding-left: 10px;
+}
+#search-image.sbutton, #searchsubmit {
+	float: right;
+	left: auto;
+	right: 0;
+}
+.author-social {
+	margin-left: 0;
+	float: right;
+}
+.single-button { float: right }
+.single-button > div { float: right }
+.thecategory {
+	margin-right: 0;
+	margin-left: 5px;
+}
+/*Widgets*/
+.widget .wpt_widget_content .wpt-pagination a.previous { float: left }
+@media screen and (max-width: 1350px) { 
+	.shareit { right: 10px }
+}
+@media screen and (max-width: 1230px) { 
+	#move-to-top { left: 5px }
+	.shareit { right: inherit!important }
+}
+@media screen and (max-width:865px) { 
+	#primary-navigation a#pull:after { right: 40px }
+	.navigation ul li a, .navigation ul ul a { text-align: left }
+	#primary-navigation a#pull { margin-right: 15px }
+	#primary-navigation a#pull:after { right: -15px }
+}
+@media screen and (max-width:728px) { 
+	.header-social, .footer-social { text-align: center }
+}
+@media screen and (max-width:720px) { 
+	.f-widget, .widgets-num-4 .f-widget {
+		margin-right: 0;
+		margin-left: 4%;
+	}
+	.f-widget:nth-child(even), .widgets-num-4 .f-widget:nth-child(even) { margin-left: 0 }
+}
+@media screen and (max-width:480px) { 
+	.related-posts .latestPost .post-image {
+		float: right;
+		width: 100%;
+	}
+}
