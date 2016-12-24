@@ -2297,3 +2297,5 @@ function mts_correct_homepage_sections_import( $item, $key, $data ) {
 
     return $new_item;
 }
+
+remove_action('wp_head', 'wp_generator');
